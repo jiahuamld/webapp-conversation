@@ -7,9 +7,9 @@ const translation = {
     custom: '自定义',
   },
   contribute: {
-    line1: '我有兴趣为 ',
-    line2: 'Dify 贡献工具。',
-    viewGuide: '查看指南',
+    line1: '',
+    line2: '',
+    viewGuide: '',
   },
   author: '作者',
   auth: {
