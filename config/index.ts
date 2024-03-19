@@ -3,7 +3,7 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: '家庭教练中心',
+  title: '你的家庭教练中心',
   description: '孩子更独立，家庭更幸福',
   copyright: '云牧科技',
   privacy_policy: '',
