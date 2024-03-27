@@ -600,7 +600,7 @@ const Main: FC = () => {
             savedInputs={currInputs as Record<string, any>}
             onInputsChange={setCurrInputs}
           ></ConfigSence>
-          <Button type='primary' href='https://zhogr3zbr1.feishu.cn/docx/OjRUdvClqoMHglx1nJ5cnXJDnAb' long>
+          <Button type='text' status='success' href='https://zhogr3zbr1.feishu.cn/docx/OjRUdvClqoMHglx1nJ5cnXJDnAb' long>
             反馈答疑入口
           </Button>
           {
