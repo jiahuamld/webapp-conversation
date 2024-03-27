@@ -3,6 +3,7 @@
 import type { FC } from 'react'
 import React, { useEffect, useRef, useState } from 'react'
 import { Button } from '@arco-design/web-react';
+import "@arco-design/web-react/dist/css/arco.css";
 import { useTranslation } from 'react-i18next'
 import produce, { setAutoFreeze } from 'immer'
 import { useBoolean, useGetState } from 'ahooks'
