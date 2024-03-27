@@ -601,7 +601,7 @@ const Main: FC = () => {
             onInputsChange={setCurrInputs}
           ></ConfigSence>
           <Button type='text' status='success' href='https://zhogr3zbr1.feishu.cn/docx/OjRUdvClqoMHglx1nJ5cnXJDnAb' long>
-            反馈答疑入口
+            点击立即反馈
           </Button>
           {
             hasSetInputs && (
