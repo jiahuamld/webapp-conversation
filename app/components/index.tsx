@@ -2,6 +2,7 @@
 'use client'
 import type { FC } from 'react'
 import React, { useEffect, useRef, useState } from 'react'
+import { Button } from '@arco-design/web-react';
 import { useTranslation } from 'react-i18next'
 import produce, { setAutoFreeze } from 'immer'
 import { useBoolean, useGetState } from 'ahooks'
@@ -47,7 +48,7 @@ const Main: FC = () => {
 
   useEffect(() => {
     if (APP_INFO?.title)
-      document.title = `${APP_INFO.title} - Powered by Jh`
+      document.title = `${APP_INFO.title}`
   }, [APP_INFO?.title])
 
   // onData change thought (the produce obj). https://github.com/immerjs/immer/issues/576
@@ -586,6 +587,7 @@ const Main: FC = () => {
         )}
         {/* main */}
         <div className='flex-grow flex flex-col h-[calc(100vh_-_3rem)] overflow-y-auto'>
+
           <ConfigSence
             conversationName={conversationName}
             hasSetInputs={hasSetInputs}
@@ -597,7 +599,9 @@ const Main: FC = () => {
             savedInputs={currInputs as Record<string, any>}
             onInputsChange={setCurrInputs}
           ></ConfigSence>
-
+          <Button type='primary' href='https://zhogr3zbr1.feishu.cn/docx/OjRUdvClqoMHglx1nJ5cnXJDnAb' long>
+            客服答疑
+          </Button>
           {
             hasSetInputs && (
               <div className='relative grow h-[200px] pc:w-[794px] max-w-full mobile:w-full pb-[66px] mx-auto mb-3.5 overflow-hidden'>
